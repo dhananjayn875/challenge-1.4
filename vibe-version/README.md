@@ -1,20 +1,12 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Vibe Version
 
-# Run and deploy your AI Studio app
+This folder contains the task manager app built using a vibe coding tool.
 
-This contains everything you need to run your app locally.
+**Tool used:** Google AI Studio
+**Time to generate:** ~15 minutes
+**Prompt used:** Build a task manager app with React. It should let users add tasks, mark them complete, delete them, and filter by status. Keep it clean and minimal.
+**Live URL:** https://dhananjayn875.github.io/vibe-version/
 
-View your app in AI Studio: https://ai.studio/apps/b2c67102-af20-49c5-bef8-4eff103431f3
+## Notes
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+AI Studio went way beyond what I asked for. It scaffolded a full Express backend with REST API routes, pulled in Tailwind, a motion animation library, and somehow included the Google GenAI SDK — none of which I explicitly asked for. The frontend looked good immediately. The problem was I didn't fully understand the architecture it chose until I read through it after. Getting it deployed to GitHub Pages also needed extra work because the original setup assumed a Node server, not a static host.
