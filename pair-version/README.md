@@ -1,31 +1,13 @@
-# Task Manager (Vite + React)
+# Pair Version
 
-## Run locally
+This folder contains the task manager app built using an AI pair programming assistant.
 
-```bash
-npm install
-npm run dev
-```
+**Tool used:** GitHub Copilot (VS Code)
+**Time to build:** ~45 minutes
+**Suggestions accepted:** ~20
+**Suggestions rejected:** ~8
+**Live URL:** https://dhananjayn875.github.io/pair-version/
 
-## Deploy to GitHub Pages
+## Notes
 
-This project is configured to publish the build output in `dist/` to a `gh-pages` branch.
-
-1. Install dependencies:
-
-```bash
-npm install
-```
-
-2. Deploy:
-
-```bash
-npm run deploy
-```
-
-3. In GitHub repository settings:
-- Go to **Settings > Pages**.
-- Set **Source** to **Deploy from a branch**.
-- Select branch **gh-pages** and folder **/(root)**.
-
-After this, your app will be live on your GitHub Pages URL.
+Copilot was most useful for boilerplate — event handlers, useState setup, the repetitive stuff. Where I overrode it the most was in how I structured the filter logic; it kept suggesting a more verbose approach and I simplified it. The CSS was almost entirely me because Copilot's styling suggestions were generic. Overall it felt like coding with autocomplete that actually understands context, not a replacement for thinking.
